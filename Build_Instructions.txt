@@ -1,0 +1,14 @@
+Build Instructions:
+1.	Install NodeJS
+2.	To start the server for the web API:
+Go to path: ./api
+Run command: node servers.js
+3.	To start the server for the web application:
+Go to path: ./webApp
+Run command: node app.js
+4.	View the web application: http://localhost:3000
+
+Note: 
+To run unit tests,
+ Go to path: ./api/controllers/arithmeticUnits/unitTests
+  Run command: node unitTest.js

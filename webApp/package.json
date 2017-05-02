@@ -1,0 +1,16 @@
+{
+  "name": "metricsapp",
+  "version": "1.0.0",
+  "description": "metrics web application",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shalini",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.3",
+    "express": "^4.15.2",
+    "express3-handlebars": "^0.5.2"
+  }
+}

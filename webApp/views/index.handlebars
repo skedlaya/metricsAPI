@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html>
+<head>	
+	<title>metrics</title>	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<link href="/css/bootstrap.css" rel="stylesheet">
+	<link href="/css/metrics.css" rel="stylesheet">
+</head>
+
+<body>	
+	<div class="container">
+		<h3> Create a New Metric</h3>
+        <form id = "createMetric" action = "/">
+            Metric Name: <input type = "text" name = "metricName" placeholder="Enter Name">  <br>
+            <input type = "submit" value = "CREATE">
+        </form>
+        <p id="createMsg"></p>
+        <h3> Post Value to a Metric</h3>
+        <form id = "postValue" action = "/">
+            Metric Name: <input type = "text" name = "postName" placeholder="Enter Name">   <br>
+            Metric Value: <input type = "text" name = "postValue" placeholder="Enter Decimal Value"><br>
+            <input type = "submit" value = "POST">
+        </form>
+        <p id="postMsg"></p>
+        <h3> Get Statistics of a Metric</h3>
+        <form id = "getStats" action = "/">
+	        Metric Name: <input type = "text" name = "statName" placeholder="Enter Name">   <br>
+	        <input type = "submit" value = "GET STATISTICS">
+        </form>
+        <div id = "statistics">
+        	<p id="meanStat"></p>
+        	<p id="medianStat"></p>
+            <p id="maxStat"></p>
+            <p id="minStat"></p>
+        </div>
+	</div> 
+	
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script src="/js/metricsScript.js"></script>
+</body>
+</html>
